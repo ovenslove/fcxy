@@ -1,0 +1,25 @@
+article{ min-height: 500px; width: 800px;  float: left;}
+aside { min-height: 100px; width: 190px; margin-left: 10px; background: #8AF086; float: left; clear: right; margin-top: 50px;}
+hr{border:none;background-color:#ccc;height:2px;display: block;  margin: 5px 0;}
+article img{ max-height: 300px; max-width: 778px; margin:auto;}
+
+.themebox{ height:50px; text-align: center; line-height: 50px; font-size: 20px; font-weight: 700;}
+.typebox{ height: 30px ; text-align: center; line-height: 30px; font-size: 14px;}
+.markbox{ height: 30px ; text-align: center; line-height: 30px; font-size: 14px;}
+.contentbox { min-height: 300px; width: 798px; border: 1px solid #ccc;}
+.discussbox { min-height: 200px;  margin: 10px 0; width: 100%;}
+.discussshow{ min-height: 100px; width: 100%;  background: #F6F3F3; margin: 5px 0; }
+.discussshow  ul{list-style: none;}
+.discussshow  li{ border: 1px solid #FFFFFF; margin: 5px 0; min-height: 25px; padding: 8px 10px 5px; font-size: 14px; word-wrap : break-word;}
+.discussaddbox { min-height: 200px; border:1px solid #ccc; position: relative;}
+#discussarea { min-height: 175px; width: 786px; resize: none; padding: 5px; font-size: 14px; background: white; border: 1px solid #ccc;}
+#discussarea img { margin: 0 2px;}
+.discuss_more{ height: 24px; width: 100%; text-align: center; border-top: 1px dashed #ccc; }
+.discuss_more span{ color: #503FEA;cursor: pointer;}
+#discussaddbtn { background: #F68373; margin: 5px 0; cursor: pointer;}
+#imagefacebox{ height: 150px; width: 240px; border:1px solid red; position: absolute; left: 135px; bottom: 30px; display: none; overflow-y: scroll;}
+#imagefacebox img { margin: 2px; cursor: pointer;}
+.discussaddcontrol{background: #B0F2E5;}
+#submitbtn {height:25px; width:120px; background:#57EE57; cursor: pointer;}
+#imagefacebtn {margin:0px 5px; margin-bottom:-5px; cursor: pointer;}
+.disaddtimeset{float: right; clear: right; }

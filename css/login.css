@@ -1,0 +1,72 @@
+.re_box{ 
+	border:1px solid #ccc;
+	min-height: 400px;
+	width: 600px;
+	margin: 100px auto 40px;
+
+}
+.input_box{
+	height: 30px;
+	width: 100%;
+	margin: 15px 0;
+	position: relative;
+	box-sizing:border-box; 
+}
+.input_box label{
+	display: inline-block;
+	line-height: 30px;
+	width: 100px;
+	text-align: right;
+	margin: 0 10px 0 40px;
+}
+
+.input_box input{
+	line-height: 30px;
+	padding: 0px 10px;
+	height: 30px;
+	width: 200px;
+	border: 1px solid #ccc;
+	vertical-align: center;
+	box-sizing:border-box;
+}
+.input_box input:focus{
+	border:1px solid #5FD4F0;
+}
+
+.input_box span{
+	line-height: 30px;
+
+	margin-left: 20px;
+	font-size: 14px;
+}
+.input_box img{
+	top: 11px;
+	position: relative;
+	height: 30px;
+	display: inline-block;
+	line-height: 30px;
+	margin-left: 10px;
+}
+.submit{
+	margin-top: 15px;
+	background:#4EDE5D;
+	border-radius: 5px;
+	
+}
+#checkbox{
+	height: 14px;
+	width: 14px;
+	margin: 10px -15px 5px 0;
+	display: inline-block;
+}
+
+
+
+.re_error{
+	color: red;
+	border-color: red;
+}
+.re_right{
+	color: green;
+}
+
