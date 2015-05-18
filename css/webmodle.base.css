@@ -1,0 +1,86 @@
+*{margin: 0; border: 0; padding: 0;}
+body{position: relative; min-height: 0;}
+header{ height: 50px; width: 100%; background:rgb(200,100,45); position: fixed; top: 0; z-index: 1000;}
+footer{ height: 100px; width: 100%; background:#B2ACAC; float: left;}
+.mainbox{width: 1000px; margin: 0 auto; margin-top: 60px; min-height: 520px;}
+hr{border:none;background-color:#ccc;height:1px;display: block;  margin: 5px 0;}
+a{
+	text-decoration:none;
+	cursor: pointer;
+}
+
+.head_box{
+ 	height: 100%; 
+ 	width: 1000px; 
+ 	box-sizing: border-box;
+ 	
+ 	margin:  0 auto;
+ 	position: relative;
+ 	overflow-y: hidden;
+}
+.head_box img{
+	position: absolute;
+	height: 40px;
+	margin-top: 5px;
+}
+
+.head_menu{
+	display: block;
+	top: 0px;
+	height: 100%;
+	min-width:300px ; 
+	position: absolute;
+	left: 300px;
+}
+
+.head_menu ul { 
+	list-style: none; 
+	float: right;
+	
+} 
+
+.head_menu li { 
+	list-style: none; 
+	float: left;  
+	margin:0 8px; 
+	line-height: 20px; 
+	font-weight: 500; 
+	font-size: 16px;
+	line-height: 50px;
+}
+
+.head_login_box{
+	height: 50px;
+	width: 180px; 
+	position: absolute;
+	right: 0;
+	line-height: 50px;
+	font-size: 14px;
+	text-align: right;
+}
+.head_login_box a{
+	margin-right: 10px;
+}
+
+/* webkit scrollbar */
+::-webkit-scrollbar { width: 12px; height: 12px; }
+::-webkit-scrollbar-button { display: none; }
+::-webkit-scrollbar-track, ::-webkit-scrollbar-track-piece { background: #fff; }
+::-webkit-scrollbar-thumb, ::-webkit-scrollbar-thumb:horizontal { -webkit-border-radius: 10px; background: #577db7; }
+::-webkit-scrollbar-thumb:hover { background: #16489a; }
+::-webkit-scrollbar-thumb:active { background: #164799; }
+
+html, body, div, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, form, blockquote, fieldset, input, label { margin: 0; padding: 0; }
+html, body { font: normal normal 12px/24px "Microsoft YaHei" , Simsun, Arial, Helvetica, sans-serif; color: #000; height: auto; margin: 0 auto; background: url(../images/header_bg.jpg) no-repeat; }
+input, select, textarea { color: #222; font: normal normal 12px "Microsoft YaHei" , Simsun, Arial, Helvetica, sans-serif; }
+fieldset, iframe { border: none; }
+ul, ol, li { list-style: none; }
+th { text-align: left; }
+img { border: none; }
+em, i { font-style: normal; }
+
+
+/* link */
+a { color: #000; text-decoration: none; cursor: pointer; }
+a:hover { color: #b22c89; text-decoration: none; }
+a:focus { outline: none; }

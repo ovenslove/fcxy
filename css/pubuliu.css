@@ -1,0 +1,58 @@
+
+a:hover, a:active{
+	color:#91DCFF;
+}
+
+.mainbox{ min-width: 100px;
+	width: auto;}
+#container{
+	position:relative;
+	width:1100px;
+	margin:0 auto ;
+	padding-bottom: 10px;
+	
+}
+.grid{
+	width:188px;
+	min-height:100px;
+	padding: 8px;
+	background:#fff;
+	margin:4px;
+	font-size:12px;
+	float:left;
+	box-shadow: 0 1px 3px rgba(34,25,25,0.4);
+	-moz-box-shadow: 0 1px 3px rgba(34,25,25,0.4);
+	-webkit-box-shadow: 0 1px 3px rgba(34,25,25,0.4);
+	
+	-webkit-transition: top 1s ease, left 1s ease;
+	-moz-transition: top 1s ease, left 1s ease;
+	-o-transition: top 1s ease, left 1s ease;
+	-ms-transition: top 1s ease, left 1s ease;
+}
+
+
+.grid .imgholder img{
+	max-width:100%;
+	background:#ccc;
+	display:block;
+}
+
+
+.markbox { 
+	display: none;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 999;
+	top: 0px;
+}
+
+.markback{
+
+	width: 100%;
+	height: 100%;
+	z-index: 999;
+	top: 0px;
+	background: rgba(0,0,0,0.6);
+	
+}

@@ -1,0 +1,471 @@
+/* webkit scrollbar */
+::-webkit-scrollbar { width: 12px; height: 12px; }
+::-webkit-scrollbar-button { display: none; }
+::-webkit-scrollbar-track, ::-webkit-scrollbar-track-piece { background: #fff; }
+::-webkit-scrollbar-thumb, ::-webkit-scrollbar-thumb:horizontal { -webkit-border-radius: 10px; background: #577db7; }
+::-webkit-scrollbar-thumb:hover { background: #16489a; }
+::-webkit-scrollbar-thumb:active { background: #164799; }
+
+
+/* link */
+a { color: #000; text-decoration: none; cursor: pointer; }
+a:hover { color: #b22c89; text-decoration: none; }
+a:focus { outline: none; }
+
+
+*{
+	margin: 0; 
+	border: 0;
+	 padding: 0;}
+
+body{
+	font: normal normal 14px/18px "Microsoft YaHei" , Simsun, Arial, Helvetica, sans-serif;
+
+	position: relative; 
+	background: #EAE7B6;}
+
+header{
+	height: 50px;
+	width: 100%; 
+	background:rgb(200,100,45); 
+	position: fixed; 
+	top: 0; 
+	z-index: 1000;}
+
+footer{ 
+	height: 100px; 
+	width: 100%; 
+	background:#B2ACAC; 
+	float: left;}
+
+a{
+	text-decoration:none;
+	cursor: pointer;
+}
+
+body{ 
+	position: relative;}
+
+/*-----------------------------------------------------------------------------------------------*/
+/*-主页主体结构样式--*/
+.mainbox{
+	width: 1000px; 
+	margin: 0 auto;  
+	min-height: 500px;  
+	margin-top: 70px; 
+	position: relative;}
+
+.bannermenubox { 
+	position: fixed; 
+	right: 0px; 
+	bottom:140px; 
+	margin-left: -50px;  
+	height: 175px; 
+	min-width: 40px; 
+	z-index: 555; 
+	display: none;}
+
+.bannermenu { 
+	height: 125px; 
+	width: 40px; 
+	background:  #88D1F6;
+	 border-radius: 5px;
+	}
+
+.bannermenu ul{
+	list-style: none;
+	
+}
+
+.bannermenu li{
+	padding-left: 4px;
+	line-height: 30px;
+	 height: 30px;
+	 width: 100px;
+	 background: #88D1F6;
+	 margin-bottom: 3px;
+	 border-radius: 5px;
+	 cursor: pointer;
+}
+
+
+
+.backtop{ 
+	line-height: 19px;
+	text-align: center;
+	height: 38px; 
+	width: 38px; 
+	position: absolute;  
+	border:1px solid #ADADAD; 
+	bottom: 0; right: 0; 
+	background: #E7E7E7}
+
+.backtop:hover { 
+	background:rgba(103,103,103,0.6);}
+
+.bannerpic{  
+	height: 300px; 
+	width: 100%;  
+	top:0px;
+	margin-top: 50px;   
+	position: relative;}
+
+.bannerpic img { 
+	min-width: 1000px;
+	height: 360px; 
+	width: 100%; 
+	position: absolute; 
+	left: 0; 
+	top: 0; 
+	opacity:0; }
+
+.mainleftbox{  
+	min-height: 400px; 
+	width: 750px; 
+	float: left; }
+.mainrightbox{  
+	min-height: 400px; 
+	width: 240px; 
+	float: left; 
+	margin-left: 10px;  
+	clear: right;}
+
+.noticebox{ 
+	min-height: 200px; 
+	width: 100%; }
+
+.aboutlink{ 
+	min-height: 190px;  
+	width: 100%; 
+	background: #EAEAEA; 
+	margin-top: 10px;}
+
+.roundpicbox{ 
+	border:1px solid #ccc;
+	min-height: 160px; 
+	width: 100%; 
+	margin: 10px 0;  
+	float: left; 
+	overflow: hidden; 
+	position: relative;}
+
+.videoshowbox{ 
+	height: 450px; 
+	width: 100%; 
+	float: left; 
+	margin:0; 
+	position: relative;
+	overflow-x: hidden;}
+
+.schoolrecommend{
+	height: 400px; 
+	width: 100%; 
+	float: left; 
+	margin:10px 0;}
+
+
+/*-----------------------------------------------------------------------------------------------*/
+/*顶部栏目*/
+.topmenubox{
+	display: block; 
+	height:30px; 
+	border-top-left-radius: 5px; 
+	width: 100%; background:url("../images/ico/topmenuback.png"); 
+	background-size:  100% 30px;}
+
+.topmenubox ul { 
+	list-style: none; 
+	float: right;} 
+
+.topmenubox li { 
+	list-style: none; 
+	float: left;  
+	margin:0 8px; 
+	line-height: 24px; 
+	font-weight: 500; 
+	font-size: 16px;}
+
+.topmenubox li:hover{ 
+	background: #72E5EB;
+	color: #2D4AE2;
+	cursor: pointer;
+}
+
+.topmenubox span { 
+	margin-left: 10px; 
+	line-height: 30px;}
+
+/*-----------------------------------------------------------------------------------------------*/
+/*--mainleftbox内部样式---*/
+.newsbox{ 
+	width: 100%;
+	min-height:340px; 
+	background: #EFECEA;}
+.newsbox ol { 
+	list-style: circle;
+	margin: 0px 0px -5px 35px; }
+
+.newsbox ol li { 
+	height: 24px;
+	line-height: 24px;
+	margin: 0px 0px 4px 0; 
+	background: rgba(255,255,255,0.2); 
+	color: red;
+
+}
+
+.newsbox ol li:hover{
+	
+	background: rgba(238,117,137,0.3);
+	box-sizing: border-box;
+}
+.timeset{ 
+	float: right; 
+	margin-right: 5px;
+	color: black;}
+
+
+
+.newsboxctr{
+	width: 100%; 
+	height: 30px; 
+	background: #EFECEA; 
+	text-align: center; 
+	border-top: 1px dashed #ccc; 
+	border-radius: 5px;}
+
+.newsboxctr ul{ 
+	list-style: none; 
+	margin-left: 300px;}
+
+.newsboxctr li{ 
+	float: left; 
+	display: block;
+	margin: 4px 10px; 
+	height: 20px; 
+	width: 20px; 
+	border: 1px solid #54EBD7; 
+	border-radius: 50%; 
+	line-height: 20px; 
+	font-size: 14px; 
+	text-align: center;}
+
+.newsboxctr li:hover{ 
+	background:rgba(84,235,215,0.5);}
+
+.newsboxctrli{
+	background: rgba(84,235,215,0.5);
+}
+
+
+/*-----------------------------------------------------------------------------------------------*/
+/*-mainrightbox内部样式-*/
+.noticeboxcontent{ 
+	width: 100%; 
+	min-height: 170px; 
+	background: #EAEAEA; 
+	padding: 5px 5px 5px 8px;
+	box-sizing:border-box; 
+	line-height: 20px;
+	text-indent: 2em;	
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;}
+
+.aboutlink p{ 
+	margin:5px 10px 0;}
+
+/*-----------------------------------------------------------------------------------------------*/
+/*---videoshowbox内部样式-----*/
+.videomenu{
+	height:100% ; 
+	overflow-y: auto; 
+	width: 180px; 
+	background: rgba(204, 204, 204, 0.2);
+	float: left;
+	}
+
+.videoplaybox {
+	height: 100%; 
+	width: 805px;  
+	position: relative;
+	float: left;
+	border-left: 15px solid #ccc;}
+
+.sidebar{ 
+	height: 100px; 
+	width: 15px; 
+	background: #ccc;
+	position: absolute; 
+	left: -15px; top: 150px;}
+.sidebar i{
+	line-height: 100px;
+	margin-left:3px;
+}
+
+.v_playbox{ 
+	width: 100%; 
+	height: 100%; 
+	overflow-y: hidden;
+	background: #53D9A2;}
+
+.v_playbox embed{
+	height: 100%;
+	width: 100%;
+}
+.v_playbox iframe{
+	height: 100%;
+	width: 100%;
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+/*----schoolrecommend内部样式----*/
+.recommendbar{ 
+	height:100%; 
+	width: 80px; 
+	background: #B3EBEC; 
+	float: left;}
+
+#recommendbox { 
+	height: 100%; 
+	width: 920px; 
+	background: #D3EC46; 
+	float: left;}
+
+.recommendbar ul{ 
+	list-style: none; 
+	margin-top: 30px;}
+
+.recommendbar li { 
+	list-style: none; 
+	display: block; 
+	height: 30px ; 
+	width: 100%;  
+	background: #2C8ACC; 
+	margin: 3px 0; 
+	text-align: center;
+	line-height: 30px; 
+	font-size: 18px;} 
+
+/*-----------------------------------------------------------------------------------------------*/
+/*--roundpicbox内部样式-*/
+.picconbox img{
+	box-sizing: border-box;
+	border: 3px solid white;
+	height: 150px; 
+	width: 240px; 
+	float: left;
+	margin-bottom: 10px; 
+	margin: 5px}
+
+.picconbox { 
+	display: none; 
+	height:160px;  
+	min-width: 400px; 
+	position: absolute;}
+
+.roundpicbar { 
+	position: absolute;  
+	top:50px; height:30px; 
+	z-index: 400; width: 30px;  
+	background: #4693D8;}
+
+.pleft{ 
+	left: 0px;}
+
+.pright{ 
+	right: 0px;}
+
+.roundpicbar img { 
+	height: 100%; 
+	width: 100%;}
+
+
+/*-------------------------------------------------------------------------------------------------*/
+/*header*/
+.head_box{
+ 	height: 100%; 
+ 	width: 1000px; 
+ 	box-sizing: border-box;
+ 	
+ 	margin:  0 auto;
+ 	position: relative;
+ 	overflow-y: hidden;
+}
+.head_box img{
+	position: absolute;
+	height: 40px;
+	margin-top: 5px;
+}
+
+.head_menu{
+	display: block;
+	top: 0px;
+	height: 100%;
+	min-width:300px ; 
+	position: absolute;
+	left: 300px;
+}
+
+.head_menu ul { 
+	list-style: none; 
+	float: right;
+	
+} 
+
+.head_menu li { 
+	list-style: none; 
+	float: left;  
+	margin:0 8px; 
+	line-height: 20px; 
+	font-weight: 500; 
+	font-size: 16px;
+	line-height: 50px;
+}
+
+.head_login_box{
+	height: 50px;
+	width: 180px; 
+	position: absolute;
+	right: 0;
+	line-height: 50px;
+	font-size: 14px;
+	text-align: right;
+}
+.head_login_box a{
+	margin-right: 10px;
+}
+
+
+
+.boxtitle{
+	display: block; 
+	height:30px; 
+	width: 100%; 
+	line-height: 30px; 
+	font-weight: 700; background:#CEECE5; 
+	text-align: center;
+}
+
+
+.videomenu ul {
+	list-style: none;
+
+}
+.videomenu li{
+	list-style: none;
+	display: block;
+	height: 30px;
+	overflow:hidden; 
+	border-bottom: 1px solid #B1F6EA;
+	line-height: 30px;
+	padding-left: 10px;
+}
+
+.videomenu li:hover{
+	background: #CAF0F0;
+	cursor: pointer;
+}
+
+.vidchecked{
+	background: #D1B0D2;
+}

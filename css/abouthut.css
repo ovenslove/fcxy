@@ -1,0 +1,19 @@
+
+html, body, div, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, form, blockquote, fieldset, input, label { margin: 0; padding: 0; }
+html, body { font: normal normal 12px/24px "Microsoft YaHei" , Simsun, Arial, Helvetica, sans-serif; color: #000; height: auto; margin: 0 auto; background: url(../images/header_bg.jpg) no-repeat; }
+input, select, textarea { color: #222; font: normal normal 12px "Microsoft YaHei" , Simsun, Arial, Helvetica, sans-serif; }
+fieldset, iframe { border: none; }
+ul, ol, li { list-style: none; }
+th { text-align: left; }
+img { border: none; }
+em, i { font-style: normal; }
+
+
+/* link */
+a { color: #000; text-decoration: none; cursor: pointer; }
+a:hover { color: #b22c89; text-decoration: none; }
+a:focus { outline: none; }
+
+.mainbox{
+    border:1px solid #ccc;
+}

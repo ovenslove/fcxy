@@ -1,0 +1,78 @@
+.re_box{ 
+	border:1px solid #ccc;
+	min-height: 400px;
+	width: 600px;
+	margin: 100px auto 40px;
+
+}
+.input_box{
+	height: 30px;
+	width: 100%;
+	margin: 5px 0;
+	position: relative;
+}
+.input_box label{
+	display: inline-block;
+	line-height: 30px;
+	width: 100px;
+	text-align: right;
+	margin: 0 10px 0 20px;
+}
+
+.input_box input{
+	line-height: 30px;
+	padding: 0px 10px;
+	height: 30px;
+	width: 222px;
+	border: 1px solid #ccc;
+	vertical-align: center;
+	box-sizing:border-box;
+}
+
+.input_box input:focus{
+	border:1px solid #5FD4F0;
+}
+
+.input_error{
+	border:1px solid red;
+	color: red;
+}
+.span_error{
+	color: red;
+}
+
+
+
+.submit{
+	line-height: 35px;
+	width: 224px;
+	height: 35px;
+	background: #87F6A2;
+	margin-top: 5px;
+	margin-left: 130px;
+	border-radius: 5px;
+	font-size: 16px;
+}
+
+.simspan{
+	line-height: 30px;
+	margin-left: 10px;
+	font-size: 13px;
+	color: black;
+}
+
+.re_error{
+	color: red;
+	border-color: red;
+}
+.re_right{
+	color: green;
+}
+
+
+
+
+
+
+
+
